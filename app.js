@@ -15,6 +15,9 @@ app.get('/hello', (req, res) => {
 app.get('/big',  (req, res) =>{
   res.send('<h1>Hello World!</h1>')
 })
+app.get('/nikhil',  (req, res) =>{
+  res.send('<h1>Hello USA!</h1>')
+})
 
 app.get('/greeting/:id',  (req, res) =>{
   res.send('Hello! The id was ' + req.params.id)
